@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Home</title> 
+     <style>
+           *{
+             font-family: Arial, Helvetica, sans-serif;}
+           .text{color:black;
+                 line-height: 40px;
+                 font-family: Arial, Helvetica, sans-serif;}
+           .text1{text-align: center;}
+           .img{width: 400px;
+                height: 100px;}
+           .select{margin-top: 25px;
+                   width: 200px;
+                   height: 28px;
+                   padding-left:20px ;
+                   font-size: large;
+                   background-color: rgba(1, 59, 59, 0.411);
+                   border-radius: 20px;
+                   color: white;
+                   outline: none;
+                   cursor: pointer;}
+           .h1{color: black;
+               text-decoration: underline;}
+           .dropdown button{background-color: rgb(0, 0, 0);
+                            color: rgb(255, 255, 255);
+                            padding: 10px 15px;
+                            border: none;
+                            cursor: pointer;
+                            position: absolute;
+                            left: 45%;
+                            top: 65%;
+                            transition: .3s;
+                            font-size: 15px;
+                            border-radius: 5px ;}
+           .dropdown a{display: block;
+                       color: black;
+                       text-decoration: none;
+                       padding: 10px 15px;
+                       transition: .3s;
+                       font-size: 15px;}
+           .dropdown .content{display: none;
+                              position: absolute;
+                              left: 45%;
+                              top: 65%;
+                              background-color: rgb(177, 177, 177);
+                              min-width: 100px;
+                              box-shadow: 2px 2px 5px hsl(0, 0%,0%,0.8);
+                              transition: .3s;}
+           .dropdown:hover .content{display: block;}
+           .dropdown:hover button{background-color: hsl(0,0%,70%);}
+           .dropdown a:hover{background-color: hsl(0,0%,90%);}
+    </style>   
+</head>
+<body>
+     <div class="img">
+     <body style="background-image: url('./Home.jpg');">
+     </div>
+<div class="text">
+<div class="text1">
+                   <h1>Welcome to our Home Page</h1>
+                   <h2>"Welcome to JourneyJive,where every click sparks a new adventure.
+                   <br>
+                   on a digital odyssey with us,exploring the vibrant tapestry of life's
+                   <br>
+                   experiences.Discover,connect and share your unique journey,
+                   <br>
+                   as we dance through the rhythm of stories that make life extraordinary.
+                   <br>
+                   Join the movement your story is the beat and JourneyJive is the stage."
+                   </h2>
+</div>
+</div>
+      <div class="dropdown">
+                            <button>SELECT CITY</button>
+      <div class="content">
+                           <a href="NewYork.html" target="_blank">New York</a>
+                           <a href="Paris.html" target="_blank">Paris</a>
+                           <a href="Tokyo.html" target="_blank">Tokyo</a>
+                           <a href="Oslo.html" target="_blank">Oslo</a>
+                           <a href="Istunbul.html" target="_blank">Istumbul</a>
+      </div>
+      </div> 
+</body>
+</html>
